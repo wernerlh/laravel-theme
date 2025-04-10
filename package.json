@@ -1,8 +1,8 @@
 {
-  "name": "laravel-theme",
-  "displayName": "Laravel Theme",
+  "name": "laravel-dark-professional-theme",
+  "displayName": "Laravel Dark Professional Theme",
   "description": "Laravel Dark Professional - A sophisticated dark theme optimized for Laravel development",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "engines": {
     "vscode": "^1.99.0"
   },
