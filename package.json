@@ -1,0 +1,32 @@
+{
+  "name": "laravel-theme",
+  "displayName": "Laravel Theme",
+  "description": "Laravel Dark Professional - A sophisticated dark theme optimized for Laravel development",
+  "version": "0.0.2",
+  "engines": {
+    "vscode": "^1.99.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Laravel Dark Professional",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Laravel Dark Professional-color-theme.json"
+      }
+    ]
+  },
+  "icon": "icon/icon.png",
+  "author": {
+    "name": "Juan Jose LH",
+    "email": "juan.lazo@uni.pe",
+    "url": "https://www.linkedin.com/in/juanjoselazohoyos/"
+  },
+  "repository": {
+    "url": "https://github.com/wernerlh/laravel-theme",
+    "type": "git"
+  },
+  "publisher": "juanjo-LH"
+}
