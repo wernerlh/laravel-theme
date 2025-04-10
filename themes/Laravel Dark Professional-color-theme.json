@@ -1,92 +1,107 @@
 {
-	"name": "SQL Dark Professional",
+	"name": "Laravel Dark Professional",
 	"type": "dark",
 	"colors": {
-		// Interfaz principal - Versión más oscura
-		"activityBar.background": "#0F1A30",
-		"activityBar.foreground": "#5DB0D5",
-		"activityBarBadge.background": "#5DB0D5",
-		"activityBarBadge.foreground": "#0F1A30",
+		// Interfaz principal - Versión Laravel rojiza mejorada
+		"activityBar.background": "#1E1214",
+		"activityBar.foreground": "#FFFFFF",
+		"activityBarBadge.background": "#FF2D20",
+		"activityBarBadge.foreground": "#FFFFFF",
 		
-		"titleBar.activeBackground": "#0A1220",
-		"titleBar.activeForeground": "#5DB0D5",
-		"titleBar.inactiveBackground": "#0A122099",
-		"titleBar.inactiveForeground": "#5DB0D599",
+		"titleBar.activeBackground": "#1A1012",
+		"titleBar.activeForeground": "#FFFFFF",
+		"titleBar.inactiveBackground": "#1A101299",
+		"titleBar.inactiveForeground": "#FFFFFF99",
 		
-		"statusBar.background": "#1A4A7A",
-		"statusBar.foreground": "#E0E0E0",
-		"statusBarItem.hoverBackground": "#24629B",
-		"statusBarItem.remoteBackground": "#0F1A30",
+		"statusBar.background": "#7A1A1A",
+		"statusBar.foreground": "#FFFFFF",
+		"statusBarItem.hoverBackground": "#9B2424",
+		"statusBarItem.remoteBackground": "#1E1214",
 		
-		"sideBar.background": "#142038",
-		"sideBar.foreground": "#C0E0F0",
-		"sideBarSectionHeader.background": "#0F1A30",
-		"sideBarTitle.foreground": "#5DB0D5",
+		"sideBar.background": "#221618",
+		"sideBar.foreground": "#FFFFFF",
+		"sideBarSectionHeader.background": "#1E1214",
+		"sideBarTitle.foreground": "#FFFFFF",
 		
-		"editor.background": "#0A1220",
-		"editor.foreground": "#D0D0D0",
-		"editor.lineHighlightBackground": "#1A2C45",
-		"editorCursor.foreground": "#5DB0D5",
-		"editorWhitespace.foreground": "#1A2438",
-		"editor.selectionBackground": "#1A3A5A80",
-		"editor.inactiveSelectionBackground": "#1A2C4540",
+		// Editor - Correlación con tema Laravel
+		"editor.background": "#161010",
+		"editor.foreground": "#E0D0D0",
+		"editor.lineHighlightBackground": "#2A1A1A",
+		"editorCursor.foreground": "#FF5252",
+		"editorWhitespace.foreground": "#351B1B",
+		"editor.selectionBackground": "#7A1A1A40",
+		"editor.inactiveSelectionBackground": "#5A1A1A30",
 		
-		"editorGroupHeader.tabsBackground": "#0F1A30",
-		"tab.activeBackground": "#0A1220",
-		"tab.activeForeground": "#5DB0D5",
-		"tab.inactiveBackground": "#0F1A30",
-		"tab.inactiveForeground": "#5DB0D566",
-		"tab.border": "#0F1A30",
+		// Tabs
+		"editorGroupHeader.tabsBackground": "#1E1214",
+		"tab.activeBackground": "#161010",
+		"tab.activeForeground": "#FFFFFF",
+		"tab.inactiveBackground": "#1E1214",
+		"tab.inactiveForeground": "#FFFFFF80",
+		"tab.border": "#1E1214",
 		
-		"panel.background": "#0A1220",
-		"panelTitle.activeForeground": "#5DB0D5",
-		"panelTitle.inactiveForeground": "#5DB0D580",
+		// Panel
+		"panel.background": "#161010",
+		"panelTitle.activeForeground": "#FFFFFF",
+		"panelTitle.inactiveForeground": "#FFFFFF80",
 		
 		// Elementos de formulario
-		"input.background": "#0F1A30",
-		"input.foreground": "#E0E0E0",
-		"input.border": "#1A2C45",
-		"inputOption.activeBorder": "#5DB0D5",
+		"input.background": "#1E1214",
+		"input.foreground": "#FFFFFF",
+		"input.border": "#321A1A",
+		"inputOption.activeBorder": "#FF5252",
 		
-		"dropdown.background": "#0F1A30",
-		"dropdown.border": "#1A2C45",
+		"dropdown.background": "#1E1214",
+		"dropdown.foreground": "#FFFFFF",
+		"dropdown.border": "#321A1A",
 		
-		"button.background": "#1A4A7A",
+		"button.background": "#7A1A1A",
 		"button.foreground": "#FFFFFF",
-		"button.hoverBackground": "#24629B",
+		"button.hoverBackground": "#9B2424",
 		
-		// Terminal
-		"terminal.background": "#0A1220",
-		"terminal.foreground": "#D0D0D0",
-		"terminal.ansiBlue": "#5DB0D5",
-		"terminal.ansiCyan": "#3AB8A5",
+		// Terminal - Correlación con Laravel
+		"terminal.background": "#161010",
+		"terminal.foreground": "#E0D0D0",
+		"terminal.ansiRed": "#FF2D20",
+		"terminal.ansiBlue": "#CD5C5C",
+		"terminal.ansiGreen": "#B85A44",
+		"terminal.ansiYellow": "#E9967A",
+		"terminal.ansiCyan": "#FF7256",
+		"terminal.ansiMagenta": "#B22222",
+		"terminal.ansiBrightRed": "#FF5252",
+		"terminal.ansiBrightGreen": "#FF7F50",
+		"terminal.ansiBrightYellow": "#FFA07A",
+		"terminal.ansiBrightBlue": "#FA8072",
+		"terminal.ansiBrightMagenta": "#DC143C",
+		"terminal.ansiBrightCyan": "#FF6347",
+		"terminal.ansiBrightWhite": "#FFE4E1",
 		
 		// Scrollbar
-		"scrollbarSlider.background": "#1A2C4570",
-		"scrollbarSlider.hoverBackground": "#1A3A5A70",
-		"scrollbarSlider.activeBackground": "#24629B70",
+		"scrollbarSlider.background": "#2A1A1A70",
+		"scrollbarSlider.hoverBackground": "#7A1A1A40",
+		"scrollbarSlider.activeBackground": "#9B242460",
 		
 		// Minimap
-		"minimap.background": "#0A122080",
-		"minimapSlider.background": "#1A2C4540",
-		"minimapSlider.hoverBackground": "#1A2C4560",
-		"minimapSlider.activeBackground": "#1A3A5A60"
+		"minimap.background": "#16101080",
+		"minimapSlider.background": "#2A1A1A40",
+		"minimapSlider.hoverBackground": "#2A1A1A60",
+		"minimapSlider.activeBackground": "#7A1A1A60"
 	},
 	"tokenColors": [
-		// Nuevas configuraciones SQL
+		// Configuraciones SQL - Correlación con Laravel
 		{
 			"name": "SQL Keywords",
 			"scope": ["keyword.other.sql", "keyword.other.DML.sql", "keyword.other.DDL.sql"],
 			"settings": {
-				"foreground": "#4A8FC7",
+				"foreground": "#FF6347",
 				"fontStyle": "bold"
 			}
 		},
 		{
 			"name": "SQL Functions",
 			"scope": ["entity.name.function.sql"],
-			"settings": {
-				"foreground": "#BCBFA4",
+				"settings": {
+				"foreground": "#FFA07A",
 				"fontStyle": "italic"
 			}
 		},
@@ -94,7 +109,7 @@
 			"name": "Tables & Views",
 			"scope": ["entity.name.table.sql", "entity.name.view.sql"],
 			"settings": {
-				"foreground": "#3AA8A0",
+				"foreground": "#FF7256",
 				"fontStyle": "bold"
 			}
 		},
@@ -102,7 +117,7 @@
 			"name": "Columns",
 			"scope": ["entity.name.column.sql"],
 			"settings": {
-				"foreground": "#7CB8E5"
+				"foreground": "#F08080"
 			}
 		},
 		{
@@ -250,7 +265,27 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#82AAFF"
+				"foreground": "#FF7043",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Block Level Variables",
+			"scope": [
+				"meta.block variable.other"
+			],
+			"settings": {
+				"foreground": "#FF5252"
+			}
+		},
+		{
+			"name": "Other Variable, String Link",
+			"scope": [
+				"support.other.variable",
+				"string.other.link"
+			],
+			"settings": {
+				"foreground": "#FF8A65"
 			}
 		},
 		{
@@ -380,7 +415,7 @@
 				"variable.function.constructor"
 			],
 			"settings": {
-				"foreground": "#82AAFF"
+				"foreground": "#FF9E80"
 			}
 		},
 		{
@@ -389,7 +424,7 @@
 				"entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#FF8A65"
 			}
 		},
 		{
@@ -400,7 +435,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#FFCB6B"
+				"foreground": "#FFAB91"
 			}
 		},
 		{
@@ -555,7 +590,7 @@
 		{
 			"name": "JSON Key - Level 6",
 			"scope": [
-				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
 				"foreground": "#f07178"
@@ -573,13 +608,13 @@
 		{
 			"name": "JSON Key - Level 8",
 			"scope": [
-				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
 				"foreground": "#C3E88D"
 			}
 		},
-		{
+			{
 			"name": "Markdown - Plain",
 			"scope": [
 				"text.html.markdown",
@@ -773,6 +808,38 @@
 			],
 			"settings": {
 				"foreground": "#EEFFFF"
+			}
+		},
+		{
+			"name": "PHP Class and Function",
+			"scope": [
+				"entity.name.type.class.php",
+				"entity.name.function.php"
+			],
+			"settings": {
+				"foreground": "#FF7043",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "PHP Namespace",
+			"scope": [
+				"support.other.namespace.php"
+			],
+			"settings": {
+				"foreground": "#FFAB91"
+			}
+		},
+		{
+			"name": "Blade Directives",
+			"scope": [
+				"constant.other.inline-data.html",
+				"punctuation.section.embedded.begin.php",
+				"punctuation.section.embedded.end.php"
+			],
+			"settings": {
+				"foreground": "#FF5722",
+				"fontStyle": "bold"
 			}
 		}
 	]
